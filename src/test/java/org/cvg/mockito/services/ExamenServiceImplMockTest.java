@@ -25,8 +25,7 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class) // Se ejecuta si no se agrega el MockitoAnnotations
 class ExamenServiceImplMockTest {
     // MOCK
-    @Mock
-    private ExamenRepository repository;
+    @Mock private ExamenRepository repository;
     @Mock private PreguntaRepository preguntaRepository;
 
     // SERVICE
